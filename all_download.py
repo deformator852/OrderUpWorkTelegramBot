@@ -2,7 +2,8 @@ from pyrogram import Client
 from create_bot import API_ID,API_HASH
 
 async def all_download():
-    id = -1001865373494
+    id = ""
+    #chat_id
     client = Client('sesion', API_ID, API_HASH)
     await client.start()
     messages = client.get_chat_history(chat_id=id)
