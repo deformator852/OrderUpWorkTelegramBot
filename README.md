@@ -1,6 +1,6 @@
 # TelegramBot
 At first need create a directory "image".
-In bot father need create bot and get token for bot and insert in create_bot.py/
+In bot father need create bot and get token for bot and insert in create_bot.py.
 SOCKS5 proxy also configured in create_bot.py.
 Need create Data channel add there bot and give him admin.
 To download all data with Data channel need Telegram account(because this function can do only with user API) and get api_id and api_hash and
