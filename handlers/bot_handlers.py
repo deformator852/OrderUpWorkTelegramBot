@@ -10,7 +10,7 @@ from datetime import datetime
 from aiogram.types import CallbackQuery
 import imagehash
 import asyncio
-# from contextvars import ContextVar
+
 class FSMGetId(StatesGroup):
     hash_first_image = State()
     hash_second_image = State()
