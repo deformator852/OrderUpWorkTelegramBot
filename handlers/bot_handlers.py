@@ -83,7 +83,7 @@ async def first_photo_callback(callback: CallbackQuery,state: FSMContext):
                         "hash_first_image": str(data["hash_first_image"]),
                         "hash_second_image": str(data["hash_second_image"]),
                         "hash_selected_message": str(data["hash_first_image"])}
-    await bot.send_message(chat_id=-1001865373494, text=message_json)
+    await bot.send_message(chat_id="", text=message_json)
     #chat_id = Channel for data
     await state.finish()
 @dp.callback_query_handler(text='command_second',state=FSMGetId)
